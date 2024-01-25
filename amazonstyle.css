@@ -255,6 +255,10 @@ span{
     color: white;
 }
 
+.footer p:hover{
+    text-decoration: underline;
+}
+
 .fbar1{
     height: 50px;
     background-color: #37475a;
