@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*  --------------------------------------------------------------Header------------------------------------------------------------------ */
+.navbar{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 in navbar */
+.nav-logo{
+    height: 30px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazonImages/amazonlogo.png");
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2 in navbar */
+.add-fir{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 28px;
+}
+
+.add-sec{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+.add-icon{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* box 3 in navbar */
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-search{
+    width: 800px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: #F3F3F3;
+    /* width: 620px; */
+    height: 38px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #F3F3F3;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border: none;
+}
+
+.search-input{
+    width: 700px;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: yellowgreen;
+    color: #0F1111;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* box 4&5 in navbar */
+span{
+    font-size: 0.75rem;
+}
+
+.nav-sec{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* box 6 in navbar */
+.nav-cart{
+    font-size: 30px;
+    display: flex;
+}
+.cart{
+    margin-left: 5px;
+    font-size: 16px;
+    align-self: last baseline;
+}
+
+
+/* PANEL */
+/* panel box 1 */
+.panel{
+    height:40px;
+    background-color: #222F3D;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opp p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-opp{
+    width: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-weight: 600;
+}
+
+/*  --------------------------------------------------------------content------------------------------------------------------------------ */
+
+/* hero section */
+.hero-section{
+    background-image: url(amazonImages/image1.jpg);
+    background-size: cover;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* ----------------------------------------------------------Boxes--  shopping section-------------------------*/
+.shop-section{
+    height: 900px;
+    background-color:#22ecf7c7;
+    padding: 20px 10px 10px 10px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    height: 380px;
+    border: 2px solid white;
+    width: 23%;
+    background-color: white;
+    display: inline;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    /* border:2px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:350px;
+    width:23%;
+    background-color: white;
+    display: inline;
+    padding:20px 0px 0px 10px;
+    align-content: center; */
+}
+
+.see-more{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 12px;
+    /* height: 50px;
+    background-color: #0F1111;
+    font-size: 12px;
+    margin-left: 10px; */
+}
+
+.see-more:hover{
+    text-decoration-line: underline;
+}
+
+.box-img{
+    height: 290px;
+    background-color:white;
+    background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    /* height: 280px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-size: 90% 90%; */
+}
+
+.box-img1{
+    background-image: url("amazonImages/box1.png");
+}
+
+.box-img2{
+    background-image: url("amazonImages/box2.png");
+}
+
+.box-img3{
+    background-image: url("amazonImages/box3.png");
+}
+
+.box-img4{
+    background-image: url("amazonImages/box4.png");
+}
+
+
+/* -------footer----- */
+.footer{
+    height: 500px;
+    background-color: #222F3D;
+    color: white;
+}
+
+.footer p:hover{
+    text-decoration: underline;
+}
+
+.fbar1{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.fbar2{
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.fbar2 p{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.fbar3{
+    height: 50px;
+    border-top: 1px solid rgb(165, 130, 130);
+    display: flex;
+    justify-content: center;
+}
+
+.fbar3 img{
+    height: 40px;
+    margin-top: 20px;
+}
+
+.fbar4{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.fbar4countries{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.fbar5{
+    height: 150px;
+    color: white;
+    background-color: black;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+.fbar5 h4{
+    margin-top: 20px;
+}
+.fbar5 p{
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.fbar6{
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.fbar6 p{
+    font-size: 12px;
+    padding-top: 5px;
+}
